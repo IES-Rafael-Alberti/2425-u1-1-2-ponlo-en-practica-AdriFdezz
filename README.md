@@ -78,3 +78,87 @@ Apoyate en los siguientes recursos para realizar la práctica:
    - Si se entrega en formato PDF o Google Docs, asegúrate de cumplir con el mínimo y máximo de folios establecidos.
 4. **Compilación y Ejecución:**
    - Detalla claramente cómo compilar y ejecutar el código, incluyendo las instrucciones en el archivo `README.md`.
+
+# Dinamica
+
+- Trabajar con tres lenguajes de programación diferentes:
+   - Lenguajes interpretados (Python).
+   - Lenguajes compilados (C).
+   - Lenguajes que generan código intermedio ejecutado en una máquina virtual (Java).
+
+# Tarea
+
+- Escribir un pequeño programa en cada lenguaje y responder a las preguntas.
+
+- El programa que se debe desarrollar es el siguiente:
+
+   - Programa:
+
+   - Escribe un programa básico en cada uno de los tres lenguajes elegidos que:
+      
+      - Pregunte el nombre del usuario.
+      - Muestre un mensaje que diga: "Hola [nombre del usuario]. Este programa está hecho en el lenguaje de  programación: [lenguaje]".
+
+## Python
+
+- Para poder escribir el programa necesitaremos instalar previamente Python en nuestro equipo.
+
+- Empezaremos escribiendo el programita yo en mi caso lo hare desde Visual Studio Code
+
+![Programa en Python](assets\p1.png)
+
+- Despues de escribir el codigo ejecutaremos el codigo usando **Python** en la terminal como podemos ver en la captura.
+
+![Ejecucion en Python](assets\p2.png)
+
+- En el caso de Python es un lenguaje interpretado por lo que gracias a un interprete se ejecuta linea a linea.
+
+- Los lenguajes interpretados no generan codigo objeto o intermedio python genera un codigo intermedio o bytecode y esto lo ejecuta la maquina virtual de python (PVM) Este proceso suele ser invisible para el usuario.
+
+## C
+
+- Para poder escribir el programa necesitaremos un Compilador en mi caso yo voy a elegir MinGW.
+
+- Empezaremos escribiendo el programita yo en mi caso  lo hare desde Visual Studio Code
+
+![Programa en C](assets\c1.png)
+
+- Ahora a partir del codigo fuente lo compilaremos usando gcc -c en la terminal para generar un codigo objeto.
+
+![Compilar programa](assets\c2.png)
+
+- Ahora generamos el archivo ejecutable.
+
+![Generar el ejecutable](assets\c3.png)
+
+- Como podemos ver en la siguiente captura se han generado tanto el codigo objeto como el ejecutable.
+
+![Dir archivos](assets\c4.png)
+
+- Ahora ejecutamos el archivo ejecutable y lo probamos.
+
+![Ejecucion en C](assets\c5.png)
+
+- En el caso de C es un lenguaje compilado y como su propio nombre indica necesitamos compilar el codigo fuente para generar un codigo objeto y este convertirlo en un archivo ejecutable.
+
+## Java
+
+- Para poder escribir el programa necesitaremos instalar JDK (Java Development Kit) tiene todo lo que necesitamos.
+
+- Empezaremos por escribir el programa en Visual Studio Code
+
+![Programa en Java](assets\j1.png)
+
+- Ahora usaremos javac en la terminal para compilar el codigo fuente y transformarlo en un archivo .class
+
+![Compilar en Java](assets\j2.png)
+
+- Hacemos un dir para comprobar que se genero el archivo .class
+
+![Dir archivos](assets\j4.png)
+
+- Ahora ejecutamos el archivo .class con la JVM (Java Virtual Machine)
+
+![Ejecucion en Java](assets\j3.png)
+
+- En el caso de Java es un lenguaje raro ya que contiene un poco de los dos tipos de lenguajes se compila el codigo fuente en un archivo .class y este lo ejecuta en la maquina virtual de java proporcionandole caracteristicas de los lenguajes interpretados.

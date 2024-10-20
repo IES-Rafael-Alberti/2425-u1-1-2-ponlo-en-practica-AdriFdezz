@@ -12,62 +12,42 @@ Apoyate en los siguientes recursos para realizar la práctica:
 # Título de la Actividad
 
 ## Identificación de la Actividad
-- **ID de la Actividad:** [ID de la actividad]
-- **Módulo:** [Nombre del módulo] (`PROG`, `IS`, `EDES`, etc.)
-- **Unidad de Trabajo:** [Número y nombre de la unidad de trabajo]
-- **Fecha de Creación:** [Fecha de creación]
-- **Fecha de Entrega:** [Fecha de entrega]
+- **ID de la Actividad:** Practica 1.11 Elementos de desarrollo
+- **Módulo:** EDES
+- **Unidad de Trabajo:** Unidad 1, Introduccion al desarrollo de software
+- **Fecha de Creación:** 17/10/2024
+- **Fecha de Entrega:** 21/10/2024
 - **Alumno(s):** 
-  - **Nombre y Apellidos:** [Nombre y Apellidos del alumno o integrantes del grupo]
-  - **Correo electrónico:** [Correo electrónico g.educaand.es]
-  - **Iniciales del Alumno/Grupo:** [Iniciales del alumno o del grupo]
+  - **Nombre y Apellidos:** Adrian Fernandez Garrido
+  - **Correo electrónico:** afergar613@g.educaand.es
+  - **Iniciales del Alumno/Grupo:** AFG
 
 ## Descripción de la Actividad
-[Descripción detallada de la actividad, objetivos, y contexto necesario para comprenderla. Explicar en qué consiste la actividad y qué se espera que el alumno desarrolle o implemente.]
 
-## Instrucciones de Compilación y Ejecución
-1. **Requisitos Previos:**
-   - [Lenguaje de programación y versión]
-   - [Entorno de desarrollo o dependencias necesarias]
-
-2. **Pasos para Compilar el Código:**
-   ```bash
-   [Comando para compilar el código]
-   ```
-
-3. **Pasos para Ejecutar el Código:**
-   ```bash
-   [Comando para ejecutar la aplicación]
-   ```
-
-4. **Ejecución de Pruebas:**
-   ```bash
-   [Comandos para ejecutar pruebas, si las hubiera]
-   ```
+- Se realiza un pequeño programa en 3 lenguajes diferentes para demostrar los diferentes tipos que podemos encontrar y se responde algunas preguntas sobre los lenguajes y sobre paradigmas, niveles de abstraccion, herramientas entre otros temas.
 
 ## Desarrollo de la Actividad
+
 ### Descripción del Desarrollo
-[Explicación de cómo se ha abordado el desarrollo de la actividad, incluyendo las decisiones de diseño, estructura del código y enfoque de resolución de problemas. Se recomienda adjuntar diagramas o capturas de pantalla si es necesario.]
+
+- Se realizan los programas en el IDE Visual Studio Code y a partir de ese punto se ejecuta o compila en funcion del lenguaje con el que estemos trabajando tras esto realizamos capturas de todo el proceso y las adjuntamos a este mismo archivo para que pueda ser todo documentado. Tras esto procedemos a responder a todas las preguntas propuestas y finalizamos con una pequeña conclusion final.
 
 ### Código Fuente
-[Aquí se incluirá un enlace directo a los archivos de código fuente en el repositorio, por ejemplo, si se está usando GitHub: `src/main.java` o algún enlace directo.]
 
-### Ejemplos de Ejecución
-- **Entrada 1:** Descripción de la entrada y valor de prueba.
-- **Salida Esperada 1:** Explicación de la salida esperada y el resultado de la prueba.
+![Codigo Fuente Python](src/saludo.py)
 
-### Resultados de Pruebas
-[Aquí se detallará cómo se ha verificado la funcionalidad del código, incluyendo resultados de pruebas automatizadas o manuales, en caso de que las haya.]
+![Codigo Fuente C](src/saludo.c)
 
-## Documentación Adicional
-- **Manual de Usuario:** [Enlace a la documentación del usuario, si existe]
-- **Autorización de Permisos:** Verificar que el profesor tenga permisos de lectura en el repositorio para revisar el código.
+![Codigo Fuente Java](src/Saludo.java)
 
-## Conclusiones
-[Resumen de las conclusiones alcanzadas al desarrollar la actividad, las lecciones aprendidas, y posibles mejoras que se puedan implementar en futuras entregas.]
 
 ## Referencias y Fuentes
-[Aquí se listarán las fuentes consultadas para el desarrollo de la actividad, tales como documentación oficial, artículos, o cualquier recurso externo relevante.]
+
+[Revilofe](https://revilofe.github.io/section3/)
+
+[Lenguajes de bajo y alto nivel](https://www.analyticsinsight.net/programming/comparing-low-level-and-high-level-programming-languages)
+
+[Chat GPT Aclaraciones y busqueda de informacion](https://chatgpt.com/)
 
 ### Notas Adicionales:
 1. **Nombres de Archivos y Repositorios:**
